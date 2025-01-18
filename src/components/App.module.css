@@ -1,0 +1,19 @@
+.title {
+  background-color: var(--color-background);
+  padding: var(--space-5) 0;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--color-background);
+  padding: var(--space-2) var(--space-8);
+  position: sticky;
+  top: 0;
+
+  .searchBar {
+    flex: 0.75;
+  }
+}
